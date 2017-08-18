@@ -3,4 +3,9 @@ def test
   puts "is_even?(4) should be #{is_even?(4)}"
 end
 
+
+
+def is_even?(num)
+	num.even?
+end
 test()
