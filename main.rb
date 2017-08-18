@@ -4,3 +4,8 @@ def test
 end
 
 test()
+
+def is_odd?(num)
+	return num.odd? 
+end 
+
