@@ -3,11 +3,17 @@ def test
   puts "is_even?(4) should be #{is_even?(4)}"
 end
 
-test()
+
+
+def is_even?(num)
+	num.even?
+end
+
 
 def is_odd?(num)
 	return num.odd? 
 end
 
 
-
+ 
+test()
