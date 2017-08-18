@@ -9,3 +9,8 @@ def is_even?(num)
 	num.even?
 end
 test()
+
+def is_odd?(num)
+	return num.odd? 
+end 
+
